@@ -24,6 +24,10 @@
         display: flex;
         gap: 74px;
         margin-left: auto;
+
+        @media (max-width:992px) {
+            gap: 48px;  
+        }
     }
 
     &__link {
