@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__logo {
+  text-decoration: none;
+}
+.header__menu {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

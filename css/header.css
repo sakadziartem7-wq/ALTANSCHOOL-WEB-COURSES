@@ -1,0 +1,14 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__logo {
+  text-decoration: none;
+}
+.header__menu {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */
