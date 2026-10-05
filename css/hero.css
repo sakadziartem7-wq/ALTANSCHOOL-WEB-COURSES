@@ -1,0 +1,23 @@
+.hero {
+  padding: 88px 0;
+}
+.hero__flex {
+  display: flex;
+  gap: 99px;
+}
+.hero__contant {
+  max-width: 535px;
+}
+.hero__title {
+  margin-top: 0;
+  color: #000;
+  font-family: "Crimson Text";
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 7.2px;
+}
+.hero__img {
+  max-width: 410px;
+}
+
+/*# sourceMappingURL=hero.css.map */

@@ -1,0 +1,27 @@
+@use "variables" as *;
+
+.hero {
+    padding: 88px 0;
+
+    &__flex {
+        display: flex;
+        gap: 99px;
+    }
+
+    &__contant {
+        max-width: 535px;
+    }
+
+    &__title {
+        margin-top: 0;
+        color: #000;
+       font-family: $font-crimson;
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: 7.2px;
+    }
+
+    &__img {
+        max-width: 410px;
+    }
+}
