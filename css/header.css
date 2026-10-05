@@ -28,12 +28,38 @@
     gap: 48px;
   }
 }
+@media (max-width: 730px) {
+  .header__menu {
+    display: none;
+  }
+}
 .header__link {
   color: #000;
   font-family: "Crimson Text";
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
+}
+.header__burger {
+  display: none;
+  width: 63px;
+  border: 1px solid #8E9A82;
+  background: #8E9A82;
+  border-radius: 6px;
+}
+@media (max-width: 730px) {
+  .header__burger {
+    display: block;
+    margin-left: auto;
+  }
+}
+.header__burger span {
+  display: block;
+  width: 41px;
+  height: 5px;
+  background: #D9D9D9;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 /*# sourceMappingURL=header.css.map */
