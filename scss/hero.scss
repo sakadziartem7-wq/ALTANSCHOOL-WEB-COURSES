@@ -6,12 +6,26 @@
     &__flex {
         display: flex;
         align-items: center;
+
+        
+        @media (max-width:375px) {
+            flex-direction: row-reverse;
+        }
     }
 
     &__contant {
         max-width: 1050px;
-        padding-left: 66px;
+        padding-left: 68px;
         box-sizing: border-box;
+
+        @media (max-width:1336px) {
+            max-width: 540px;
+        }
+
+         @media (max-width:375px) {
+            max-width: 166px;
+            padding-left: 0;
+        }
     }
 
     &__title {
@@ -21,16 +35,65 @@
         font-size: 48px;
         font-weight: 400;
         letter-spacing: 7.2px;
+
+        @media (max-width:1336px) {
+            font-size: 40px;
+        }
+
+
+         @media (max-width:375px) {
+            font-size: 20px;
+            white-space: nowrap;
+        }
     }
 
     &__img {
         max-width: 578px;
+
+        @media (max-width:1336px) {
+            max-width: 410px;
+        }
+
+         @media (max-width:375px) {
+            max-width: 50%;
+        }
     }
 
     &__text {
+        margin-top: 0;
         color: #000;
         font-size: 36px;
         font-weight: 400;
         font-family: $font-crimson;
+
+        @media (max-width:1336px) {
+            font-size: 20px;
+        }
+
+          @media (max-width:375px) {
+            font-size: 14px;
+        }
+    }
+
+    &__button {
+        width: 291px;
+        height: 78 px;
+       background-color: $colorsage;
+        border-radius: 59px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $font-crimson;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        transition: all 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            background: #709970;
+        }
+
     }
 }
