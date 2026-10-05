@@ -81,10 +81,12 @@ body * {
 }
 .hero__flex {
   display: flex;
-  gap: 99px;
+  align-items: center;
 }
 .hero__contant {
-  max-width: 535px;
+  max-width: 1050px;
+  padding-left: 66px;
+  box-sizing: border-box;
 }
 .hero__title {
   margin-top: 0;
@@ -95,7 +97,13 @@ body * {
   letter-spacing: 7.2px;
 }
 .hero__img {
-  max-width: 410px;
+  max-width: 578px;
+}
+.hero__text {
+  color: #000;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Crimson Text";
 }
 
 /*# sourceMappingURL=style.css.map */

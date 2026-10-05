@@ -5,23 +5,32 @@
 
     &__flex {
         display: flex;
-        gap: 99px;
+        align-items: center;
     }
 
     &__contant {
-        max-width: 535px;
+        max-width: 1050px;
+        padding-left: 66px;
+        box-sizing: border-box;
     }
 
     &__title {
         margin-top: 0;
         color: #000;
-       font-family: $font-crimson;
+        font-family: $font-crimson;
         font-size: 48px;
         font-weight: 400;
         letter-spacing: 7.2px;
     }
 
     &__img {
-        max-width: 410px;
+        max-width: 578px;
+    }
+
+    &__text {
+        color: #000;
+        font-size: 36px;
+        font-weight: 400;
+        font-family: $font-crimson;
     }
 }
