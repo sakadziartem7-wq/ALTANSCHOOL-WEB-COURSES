@@ -1,6 +1,7 @@
 @use "variables" as *;
 
 .hero {
+    overflow: hidden;
     padding: 88px 0;
 
     &__flex {
@@ -45,8 +46,8 @@
 
 
          @media (max-width:375px) {
-            font-size: 20px;
-            white-space: nowrap;
+            font-size: 32px; 
+            letter-spacing: 15%;
         }
     }
 

@@ -11,6 +11,7 @@ body {
 
 .header {
   position: fixed;
+  overflow: hidden;
   top: 0;
   left: 0;
   width: 100%;
@@ -75,6 +76,7 @@ body {
 }
 
 .hero {
+  overflow: hidden;
   padding: 88px 0;
 }
 .hero__flex {
@@ -122,8 +124,8 @@ body {
 }
 @media (max-width: 375px) {
   .hero__title {
-    font-size: 20px;
-    white-space: nowrap;
+    font-size: 32px;
+    letter-spacing: 15%;
   }
 }
 .hero__img {
