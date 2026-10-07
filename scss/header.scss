@@ -53,18 +53,19 @@
         border-radius: 6px;
 
           @media (max-width:730px) {
-            display: block;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           gap: 8px;
+           flex-direction: column;
             margin-left: auto;
         }
 
         span {
             display: flex;
-            align-items: center;
-            justify-content: center;
             width: 41px;
             height: 5px;
             background: #D9D9D9;
-            gap: 8px;
         }
     }
 }

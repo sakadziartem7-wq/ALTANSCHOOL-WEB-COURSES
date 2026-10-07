@@ -1,6 +1,11 @@
 .hero {
   overflow: hidden;
-  padding: 88px 0;
+  padding: 253px 0;
+}
+@media (max-width: 375px) {
+  .hero {
+    padding: 98px 0;
+  }
 }
 .hero__flex {
   display: flex;
@@ -48,11 +53,13 @@
 @media (max-width: 375px) {
   .hero__title {
     font-size: 32px;
-    letter-spacing: 15%;
+    letter-spacing: 4.8px;
+    white-space: nowrap;
   }
 }
 .hero__img {
   max-width: 578px;
+  background: lightgray;
 }
 @media (max-width: 1366px) {
   .hero__img {
@@ -61,7 +68,8 @@
 }
 @media (max-width: 375px) {
   .hero__img {
-    max-width: 50%;
+    max-width: 220px;
+    margin-right: -45px;
   }
 }
 .hero__text {
@@ -83,7 +91,7 @@
 }
 .hero__button {
   width: 291px;
-  height: 78 px;
+  height: 78px;
   background-color: #8E9A82;
   border-radius: 59px;
   display: flex;
@@ -96,6 +104,12 @@
   letter-spacing: 3px;
   transition: all 0.3s;
   cursor: pointer;
+}
+@media (max-width: 375px) {
+  .hero__button {
+    width: 152px;
+    height: 32px;
+  }
 }
 .hero__button:hover {
   background: #709970;

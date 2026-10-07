@@ -2,7 +2,11 @@
 
 .hero {
     overflow: hidden;
-    padding: 88px 0;
+    padding: 253px 0;
+
+      @media (max-width:375px) {
+            padding: 98px 0;
+        }
 
     &__flex {
         display: flex;
@@ -46,20 +50,24 @@
 
 
          @media (max-width:375px) {
-            font-size: 32px; 
-            letter-spacing: 15%;
+            font-size: 32px;
+            letter-spacing: 4.8px;
+            white-space: nowrap;
+
         }
     }
 
     &__img {
         max-width: 578px;
+        background: lightgray;
 
         @media (max-width:1366px) {
             max-width: 410px;
         }
 
          @media (max-width:375px) {
-            max-width: 50%;
+            max-width: 220px;
+            margin-right: -45px;
         }
     }
 
@@ -81,8 +89,8 @@
 
     &__button {
         width: 291px;
-        height: 78 px;
-       background-color: $colorsage;
+        height: 78px;
+        background-color: $colorsage;
         border-radius: 59px;
         display: flex;
         align-items: center;
@@ -94,6 +102,11 @@
         letter-spacing: 3px;
         transition: all 0.3s;
         cursor: pointer;
+
+           @media (max-width:375px) {
+            width: 152px;
+            height: 32px;
+        }
 
         &:hover {
             background: #709970;
