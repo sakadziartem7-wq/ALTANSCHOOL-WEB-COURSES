@@ -239,4 +239,41 @@ body {
   background: #709970;
 }
 
+.shop {
+  padding-top: 80px;
+}
+.shop__flex {
+  display: flex;
+  gap: 26px;
+}
+.shop__title {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Crimson Text";
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 7.2px;
+}
+@media (max-width: 1366px) {
+  .shop__title {
+    font-size: 32px;
+    letter-spacing: 4.8px;
+  }
+}
+@media (max-width: 992px) {
+  .shop__title {
+    max-width: 311px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 992px) {
+  .shop__title {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
