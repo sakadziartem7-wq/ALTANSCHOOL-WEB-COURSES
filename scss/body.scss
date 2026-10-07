@@ -3,8 +3,16 @@ body {
 }
 
 .container {
-    max-width: 1540px;
-    box-sizing: content-box;
+    max-width: 1712px;
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0 20px;
+
+    @media (max-width:1366px) {
+        max-width: 1044px;
+    }
+
+    @media (max-width:992px) {
+        max-width: 100%;
+    }
 }

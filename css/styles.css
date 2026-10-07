@@ -3,10 +3,20 @@ body {
 }
 
 .container {
-  max-width: 1540px;
-  box-sizing: content-box;
+  max-width: 1712px;
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 0 20px;
+}
+@media (max-width: 1366px) {
+  .container {
+    max-width: 1044px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
 }
 
 .header {
@@ -81,6 +91,18 @@ body {
   padding-top: 257px;
   padding-bottom: 204px;
 }
+@media (max-width: 1366px) {
+  .hero {
+    padding-top: 182px;
+    padding-bottom: 144px;
+  }
+}
+@media (max-width: 992px) {
+  .hero {
+    padding-top: 160px;
+    padding-bottom: 101px;
+  }
+}
 @media (max-width: 375px) {
   .hero {
     padding: 98px 0;
@@ -95,25 +117,25 @@ body {
     flex-direction: row-reverse;
   }
 }
-.hero__contant {
+.hero__content {
   max-width: 1050px;
   padding-left: 68px;
   box-sizing: border-box;
 }
 @media (max-width: 1366px) {
-  .hero__contant {
+  .hero__content {
     max-width: 535px;
     padding-left: 99px;
   }
 }
 @media (max-width: 992px) {
-  .hero__contant {
-    max-width: 417px;
+  .hero__content {
+    max-width: 519px;
     padding-left: 0;
   }
 }
 @media (max-width: 375px) {
-  .hero__contant {
+  .hero__content {
     max-width: 166px;
   }
 }
@@ -123,13 +145,20 @@ body {
   font-family: "Crimson Text";
   font-size: 90px;
   font-weight: 400;
-  letter-spacing: 7px;
+  letter-spacing: 13px;
   margin-bottom: 56px;
 }
 @media (max-width: 1366px) {
   .hero__title {
     font-size: 48px;
-    letter-spacing: 15%;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+  }
+}
+@media (max-width: 992px) {
+  .hero__title {
+    margin-bottom: 8px;
+    letter-spacing: -1px;
   }
 }
 @media (max-width: 375px) {
@@ -140,17 +169,23 @@ body {
   }
 }
 .hero__img {
-  max-width: 578px;
+  width: 578px;
   background: lightgray;
 }
 @media (max-width: 1366px) {
   .hero__img {
-    max-width: 410px;
+    width: 410px;
+  }
+}
+@media (max-width: 992px) {
+  .hero__img {
+    width: 40%;
   }
 }
 @media (max-width: 375px) {
   .hero__img {
-    max-width: 220px;
+    width: 220px;
+    margin-top: 18px;
     margin-right: -45px;
   }
 }
@@ -186,6 +221,12 @@ body {
   letter-spacing: 3px;
   transition: all 0.3s;
   cursor: pointer;
+}
+@media (max-width: 992px) {
+  .hero__button {
+    width: 227px;
+    height: 43px;
+  }
 }
 @media (max-width: 375px) {
   .hero__button {

@@ -2,23 +2,35 @@
 
 .hero {
     overflow: hidden;
-   padding-top: 257px;
-   padding-bottom: 204px;
+    padding-top: 257px;
+    padding-bottom: 204px;
 
-      @media (max-width:375px) {
-            padding: 98px 0;
+    @media (max-width:1366px) {
+        padding-top: 182px;
+        padding-bottom: 144px;
+    }
+
+     @media (max-width:992px) {
+        padding-top: 160px;
+        padding-bottom: 101px;
+
         }
+
+
+    @media (max-width:375px) {
+        padding: 98px 0;
+    }
 
     &__flex {
         display: flex;
         align-items: center;
-   
+
         @media (max-width:375px) {
             flex-direction: row-reverse;
         }
     }
 
-    &__contant {
+    &__content {
         max-width: 1050px;
         padding-left: 68px;
         box-sizing: border-box;
@@ -28,12 +40,12 @@
             padding-left: 99px;
         }
 
-          @media (max-width:992px) {
-            max-width:417px;
+        @media (max-width:992px) {
+            max-width: 519px;
             padding-left: 0;
         }
 
-         @media (max-width:375px) {
+        @media (max-width:375px) {
             max-width: 166px;
         }
     }
@@ -44,32 +56,42 @@
         font-family: $font-crimson;
         font-size: 90px;
         font-weight: 400;
-        letter-spacing: 7px;
+        letter-spacing: 13px;
         margin-bottom: 56px;
 
         @media (max-width:1366px) {
             font-size: 48px;
-           letter-spacing: 15%;
+            letter-spacing: 1px;
+            margin-bottom: 45px;
         }
 
-         @media (max-width:375px) {
+        @media (max-width:992px) {
+            margin-bottom: 8px;
+            letter-spacing: -1px;
+        }
+
+        @media (max-width:375px) {
             font-size: 32px;
             letter-spacing: 4.8px;
             white-space: nowrap;
-
         }
     }
 
     &__img {
-        max-width: 578px;
+        width: 578px;
         background: lightgray;
 
         @media (max-width:1366px) {
-            max-width: 410px;
+            width: 410px;
         }
 
-         @media (max-width:375px) {
-            max-width: 220px;
+        @media (max-width:992px) {
+            width: 40%;
+        }
+
+        @media (max-width:375px) {
+            width: 220px;
+            margin-top: 18px;
             margin-right: -45px;
         }
     }
@@ -85,7 +107,8 @@
             font-size: 20px;
         }
 
-          @media (max-width:375px) {
+
+        @media (max-width:375px) {
             font-size: 14px;
         }
     }
@@ -106,7 +129,12 @@
         transition: all 0.3s;
         cursor: pointer;
 
-           @media (max-width:375px) {
+        @media (max-width:992px) {
+            width: 227px;
+            height: 43px;
+        }
+
+        @media (max-width:375px) {
             width: 152px;
             height: 32px;
         }
