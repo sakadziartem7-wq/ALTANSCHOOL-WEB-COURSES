@@ -2,7 +2,8 @@
 
 .hero {
     overflow: hidden;
-    padding: 253px 0;
+   padding-top: 257px;
+   padding-bottom: 204px;
 
       @media (max-width:375px) {
             padding: 98px 0;
@@ -23,7 +24,8 @@
         box-sizing: border-box;
 
         @media (max-width:1366px) {
-            max-width: 540px;
+            max-width: 535px;
+            padding-left: 99px;
         }
 
           @media (max-width:992px) {
@@ -40,14 +42,15 @@
         margin-top: 0;
         color: #000;
         font-family: $font-crimson;
-        font-size: 48px;
+        font-size: 90px;
         font-weight: 400;
-        letter-spacing: 7.2px;
+        letter-spacing: 7px;
+        margin-bottom: 56px;
 
         @media (max-width:1366px) {
-            font-size: 40px;
+            font-size: 48px;
+           letter-spacing: 15%;
         }
-
 
          @media (max-width:375px) {
             font-size: 32px;
