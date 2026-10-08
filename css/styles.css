@@ -105,7 +105,8 @@ body {
 }
 @media (max-width: 375px) {
   .hero {
-    padding: 98px 0;
+    padding-top: 102px;
+    padding-left: 15px;
   }
 }
 .hero__flex {
@@ -115,6 +116,7 @@ body {
 @media (max-width: 375px) {
   .hero__flex {
     flex-direction: row-reverse;
+    align-items: flex-start;
   }
 }
 .hero__content {
@@ -194,8 +196,8 @@ body {
   .hero__img--rounded {
     display: block;
     width: 220px;
-    height: 228px;
-    margin-top: 18px;
+    height: 282px;
+    margin-top: 43px;
     margin-right: -55px;
     flex-shrink: 0;
   }

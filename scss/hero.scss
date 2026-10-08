@@ -18,7 +18,8 @@
 
 
     @media (max-width:375px) {
-        padding: 98px 0;
+        padding-top: 102px;
+        padding-left: 15px;
     }
 
     &__flex {
@@ -27,6 +28,7 @@
 
         @media (max-width:375px) {
             flex-direction: row-reverse;
+            align-items: flex-start;
         }
     }
 
@@ -99,14 +101,13 @@
       @media (max-width: 375px) {
         display: block;
         width: 220px;
-        height: 228px;
-        margin-top: 18px;
+        height: 282px;
+        margin-top: 43px;
         margin-right: -55px;
         flex-shrink: 0;
       }
     }
   }
-
 
     &__text {
         margin-top: 0;
