@@ -2,10 +2,24 @@
 
 .shop {
     padding-top: 80px;
+    overflow: hidden;
+
+        @media (max-width: 375px) {
+              padding-top: 19px;
+            }
 
     &__flex {
         display: flex;
         gap: 26px;
+        margin-bottom: 22px;
+
+        @media (max-width: 1366px) {
+            gap: 16px;
+        }
+
+        @media (max-width: 992px) {
+            gap: 12px;
+        }
     }
 
     &__title {
@@ -18,20 +32,46 @@
         font-weight: 400;
         letter-spacing: 7.2px;
 
-         @media (max-width:1366px) {
+        @media (max-width:1366px) {
             font-size: 32px;
             letter-spacing: 4.8px;
         }
 
-         @media (max-width:992px) {
+        @media (max-width:992px) {
             max-width: 311px;
             margin-left: auto;
             margin-right: auto;
         }
 
-         @media (max-width:992px) {
+        @media (max-width:992px) {
             font-size: 20px;
             letter-spacing: 3px;
         }
     }
+
+    &__banner {
+        width: 100%;
+        height: auto;
+    }
+
+
+    &__img {
+        min-width: 0;
+        height: auto;
+
+        &--eucalyptus {
+
+            @media (max-width: 375px) {
+                margin-left: -55px;
+            }
+
+        }
+
+        &--palm {
+              @media (max-width: 375px) {
+                margin-right: -55px;
+            }
+        }
+    }
+
 }
