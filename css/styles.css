@@ -184,9 +184,20 @@ body {
 }
 @media (max-width: 375px) {
   .hero__img {
+    display: none;
+  }
+}
+.hero__img--rounded {
+  display: none;
+}
+@media (max-width: 375px) {
+  .hero__img--rounded {
+    display: block;
     width: 220px;
+    height: 228px;
     margin-top: 18px;
-    margin-right: -45px;
+    margin-right: -55px;
+    flex-shrink: 0;
   }
 }
 .hero__text {
