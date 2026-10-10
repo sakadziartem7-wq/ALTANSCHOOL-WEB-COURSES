@@ -115,7 +115,7 @@ body {
   display: flex;
   align-items: center;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .hero__flex {
     flex-direction: row-reverse;
     align-items: flex-start;
@@ -135,7 +135,7 @@ body {
 @media (max-width: 992px) {
   .hero__content {
     max-width: 519px;
-    padding-left: 0;
+    padding-left: 27px;
   }
 }
 @media (max-width: 375px) {
@@ -183,6 +183,11 @@ body {
 }
 @media (max-width: 992px) {
   .hero__img {
+    width: 329px;
+  }
+}
+@media (max-width: 991px) {
+  .hero__img {
     display: none;
   }
 }
@@ -190,6 +195,11 @@ body {
   display: none;
 }
 @media (max-width: 992px) {
+  .hero__img--rounded {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
   .hero__img--rounded {
     display: block;
     width: 220px;
