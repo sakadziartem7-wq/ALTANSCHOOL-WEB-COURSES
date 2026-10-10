@@ -4,6 +4,7 @@
     overflow: hidden;
     padding-top: 257px;
     padding-bottom: 204px;
+    background: #FAF9F8;
 
     @media (max-width:1366px) {
         padding-top: 182px;
@@ -19,7 +20,6 @@
 
     @media (max-width:375px) {
         padding-top: 102px;
-        padding-left: 15px;
     }
 
     &__flex {
@@ -88,17 +88,13 @@
     }
 
     @media (max-width: 992px) {
-      width: 40%;
-    }
-
-    @media (max-width: 992px) {
       display: none;
     }
 
     &--rounded {
       display: none; 
 
-      @media (max-width: 992px) {
+    @media (max-width: 992px) {
         display: block;
         width: 220px;
         height: 282px;
@@ -148,6 +144,7 @@
         }
 
         @media (max-width:375px) {
+            font-size: 13px;
             width: 152px;
             height: 32px;
         }

@@ -2,6 +2,7 @@
   overflow: hidden;
   padding-top: 257px;
   padding-bottom: 204px;
+  background: #FAF9F8;
 }
 @media (max-width: 1366px) {
   .hero {
@@ -18,7 +19,6 @@
 @media (max-width: 375px) {
   .hero {
     padding-top: 102px;
-    padding-left: 15px;
   }
 }
 .hero__flex {
@@ -93,11 +93,6 @@
 }
 @media (max-width: 992px) {
   .hero__img {
-    width: 40%;
-  }
-}
-@media (max-width: 992px) {
-  .hero__img {
     display: none;
   }
 }
@@ -156,6 +151,7 @@
 }
 @media (max-width: 375px) {
   .hero__button {
+    font-size: 13px;
     width: 152px;
     height: 32px;
   }
