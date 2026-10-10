@@ -85,6 +85,7 @@
 .hero__img {
   width: 578px;
   background: lightgray;
+  position: relative;
 }
 @media (max-width: 1366px) {
   .hero__img {
@@ -115,8 +116,8 @@
     width: 220px;
     height: 282px;
     margin-top: 43px;
-    margin-right: -55px;
-    flex-shrink: 0;
+    margin-right: -23px;
+    left: 60px;
   }
 }
 .hero__text {
