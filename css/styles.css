@@ -65,6 +65,7 @@ body {
 .header__burger {
   display: none;
   width: 63px;
+  height: 47px;
   border: 1px solid #8E9A82;
   background: #8E9A82;
   border-radius: 6px;
@@ -113,7 +114,7 @@ body {
   display: flex;
   align-items: center;
 }
-@media (max-width: 375px) {
+@media (max-width: 992px) {
   .hero__flex {
     flex-direction: row-reverse;
     align-items: flex-start;
@@ -184,7 +185,7 @@ body {
     width: 40%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 992px) {
   .hero__img {
     display: none;
   }
@@ -192,7 +193,7 @@ body {
 .hero__img--rounded {
   display: none;
 }
-@media (max-width: 375px) {
+@media (max-width: 992px) {
   .hero__img--rounded {
     display: block;
     width: 220px;

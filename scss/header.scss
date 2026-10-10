@@ -28,12 +28,12 @@
         gap: 74px;
         margin-left: auto;
 
-        @media (max-width:992px) {
+    @media (max-width:992px) {
             gap: 48px;
         }
 
-        @media (max-width:730px) {
-            display: none;
+    @media (max-width:730px) {
+        display: none;
         }
     }
 
@@ -48,17 +48,18 @@
     &__burger {
         display: none;
         width: 63px;
+        height: 47px;
         border: 1px solid #8E9A82;
         background: #8E9A82;
         border-radius: 6px;
 
-          @media (max-width:730px) {
-           display: flex;
-           align-items: center;
-           justify-content: center;
-           gap: 8px;
-           flex-direction: column;
-            margin-left: auto;
+    @media (max-width:730px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-direction: column;
+        margin-left: auto;
         }
 
         span {

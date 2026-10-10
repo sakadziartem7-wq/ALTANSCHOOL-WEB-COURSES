@@ -44,6 +44,7 @@
 .header__burger {
   display: none;
   width: 63px;
+  height: 47px;
   border: 1px solid #8E9A82;
   background: #8E9A82;
   border-radius: 6px;
