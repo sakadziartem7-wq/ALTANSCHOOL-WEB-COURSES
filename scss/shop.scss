@@ -56,20 +56,21 @@
 
 
     &__img {
+        width: 100%;
         min-width: 0;
         height: auto;
 
         &--eucalyptus {
 
             @media (max-width: 375px) {
-                margin-left: -55px;
+                margin-left: -65px;
             }
 
         }
 
         &--palm {
               @media (max-width: 375px) {
-                margin-right: -55px;
+                margin-right: -65px;
             }
         }
     }
