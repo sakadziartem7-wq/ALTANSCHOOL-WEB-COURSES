@@ -127,13 +127,14 @@ body {
 .hero__flex {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 @media (max-width: 992px) {
   .hero__flex {
     margin-left: 50px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .hero__flex {
     flex-direction: row-reverse;
     align-items: flex-start;
