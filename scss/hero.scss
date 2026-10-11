@@ -13,9 +13,8 @@
 
      @media (max-width:992px) {
         padding-top: 160px;
-        padding-bottom: 101px;
-
-        }
+        padding-bottom: 101px;       
+     }
 
 
     @media (max-width:375px) {
@@ -44,40 +43,33 @@
 
         @media (max-width:992px) {
             max-width: 519px;
+            min-width: 166px;
             padding-left: 27px;
-        }
-
-        @media (max-width:375px) {
-            max-width: 166px;
         }
     }
 
     &__title {
-        margin-top: 0;
-        color: #000;
-        font-family: $font-crimson;
-        font-size: 90px;
-        font-weight: 400;
-        letter-spacing: 13px;
-        margin-bottom: 56px;
+    margin-top: 0;
+    color: #000;
+    font-family: $font-crimson;
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: 13px;
+    margin-bottom: 56px;
 
-        @media (max-width:1366px) {
-            font-size: 48px;
-            letter-spacing: 1px;
-            margin-bottom: 45px;
-        }
-
-        @media (max-width:992px) {
-            margin-bottom: 8px;
-            letter-spacing: -1px;
-        }
-
-        @media (max-width:375px) {
-            font-size: 32px;
-            letter-spacing: 4.8px;
-            white-space: nowrap;
-        }
+    @media (max-width: 1366px) {
+        font-size: 48px;
+        letter-spacing: 1px;
+        margin-bottom: 45px;
     }
+
+    @media (max-width: 992px) {
+        font-size: clamp(32px, calc(32px + (48 - 32) * (100vw - 375px) / (992 - 375)), 48px);
+        letter-spacing: 4.8px;
+        margin-bottom: 8px;
+        white-space: nowrap;
+    }
+}
 
   &__img {
     width: 578px;
