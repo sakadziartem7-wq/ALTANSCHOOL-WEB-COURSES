@@ -22,18 +22,30 @@
         font-family: $font-crimson;
         font-size: 16px;
         font-weight: 400;
+        
+    @media (max-width:992px) {
+        margin-left: 61px;
+        }
+
+        
+    @media (max-width:375px) {
+        margin-left: 32px;
+        margin-right: 42px;
+        white-space: nowrap;
+        }
     }
 
     &__menu {
         display: flex;
         gap: 74px;
         margin-left: auto;
+        margin-right: 189px;
 
     @media (max-width:992px) {
             gap: 48px;
         }
 
-    @media (max-width:730px) {
+    @media (max-width:992px) {
         display: none;
         }
     }
@@ -54,13 +66,14 @@
         background: #8E9A82;
         border-radius: 6px;
 
-    @media (max-width:730px) {
+    @media (max-width:992px) {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 8px;
         flex-direction: column;
         margin-left: auto;
+        margin-right:20px;
         }
 
         span {
